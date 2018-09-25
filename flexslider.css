@@ -19,6 +19,17 @@
   font-weight: normal;
   font-style: normal;
 } */
+
+@font-face {
+    font-family: 'fontawesome';
+    src: url('fonts0/fontawesome-webfont.eot');
+    src: url('fonts0/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts0/fontawesome-webfont.woff') format('woff'),
+         url('fonts0/fontawesome-webfont.ttf') format('truetype'),
+         url('fonts0/fontawesome-webfont.svg#fontawesome') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 /* ====================================================================================================================
  * RESETS
  * ====================================================================================================================*/
@@ -139,7 +150,7 @@ html[xmlns] .flexslider .slides {
   font-family: "fontawesome";
   font-size: 40px;
   display: inline-block;
-  content: '\f105';
+  content: '\f104';
   color: rgba(0, 0, 0, 0.8);
   text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
